@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Informações sobre o aplicativo privado Backups Bela OpenClaw e sua integração com o Google Drive.">
+  <title>Backups Bela OpenClaw — Informações do aplicativo</title>
+  <style>
+    :root { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #14253b; background: #f5f7fb; }
+    * { box-sizing: border-box; }
+    body { margin: 0; line-height: 1.65; }
+    a { color: #0754a9; text-underline-offset: 3px; }
+    a:focus-visible { outline: 3px solid #316dd0; outline-offset: 3px; }
+    .wrap { max-width: 830px; margin: 0 auto; padding: 0 24px; }
+    header { background: #112846; color: #fff; padding: 24px 0; }
+    header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+    header a { color: #d4e8ff; }
+    .brand { font-weight: 750; font-size: 1.1rem; letter-spacing: -.01em; }
+    main { padding: 58px 0 64px; }
+    .eyebrow { font-weight: 750; color: #35619a; font-size: .82rem; letter-spacing: .1em; text-transform: uppercase; }
+    h1 { font-size: clamp(2rem, 5vw, 3rem); line-height: 1.15; letter-spacing: -.04em; margin: 12px 0 22px; }
+    h2 { margin: 34px 0 12px; font-size: 1.26rem; }
+    p { margin: 0 0 16px; }
+    .lead { font-size: 1.14rem; color: #3a4e68; }
+    .panel { margin-top: 32px; padding: 24px; background: #fff; border: 1px solid #dce4ee; border-radius: 14px; }
+    footer { border-top: 1px solid #dce4ee; padding: 24px 0 36px; font-size: .93rem; color: #53657e; }
+  </style>
+</head>
+<body>
+  <header><div class="wrap"><span class="brand">Backups Bela OpenClaw</span><nav aria-label="Navegação"><a href="./politica-de-privacidade.html">Política de Privacidade</a></nav></div></header>
+  <main class="wrap">
+    <div class="eyebrow">Aplicativo de uso privado</div>
+    <h1>Backups Bela OpenClaw</h1>
+    <p class="lead">Integração privada para armazenar e recuperar cópias de segurança de um ambiente de automação e agentes de IA no Google Drive.</p>
+    <section aria-labelledby="sobre">
+      <h2 id="sobre">O que é este aplicativo?</h2>
+      <p>Backups Bela OpenClaw é o nome do cliente OAuth utilizado por uma rotina administrada pelo titular da conta. A integração utiliza o <a href="https://rclone.org/" rel="noopener noreferrer">rclone</a> para enviar e consultar arquivos de backup em uma área designada do Google Drive.</p>
+      <p>O aplicativo destina-se a uso próprio, não oferece cadastro público e não é um serviço comercial disponibilizado a terceiros.</p>
+    </section>
+    <section aria-labelledby="dados">
+      <h2 id="dados">Acesso ao Google Drive</h2>
+      <p>A autorização é concedida pelo proprietário da conta Google. A integração foi planejada para usar o escopo <code>drive.file</code>, limitado aos arquivos criados ou autorizados para o aplicativo, em vez de solicitar acesso irrestrito a todos os arquivos da conta.</p>
+      <p>As rotinas de backup e a criptografia serão habilitadas e verificadas antes da entrada em operação. Esta página não indica que uma transferência já foi executada.</p>
+    </section>
+    <div class="panel">
+      <h2 style="margin-top:0">Privacidade e contato</h2>
+      <p>Consulte nossa <a href="./politica-de-privacidade.html">Política de Privacidade</a> para entender as finalidades do acesso, as medidas de proteção previstas, a retenção e como revogar a autorização.</p>
+      <p>Contato do responsável: <a href="mailto:eliasrafa@gmail.com">eliasrafa@gmail.com</a>.</p>
+    </div>
+  </main>
+  <footer><div class="wrap">© 2026 Backups Bela OpenClaw · Aplicativo privado para cópias de segurança · <a href="./politica-de-privacidade.html">Política de Privacidade</a></div></footer>
+</body>
+</html>
